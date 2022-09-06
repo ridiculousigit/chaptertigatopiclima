@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_fragmentLogin_to_fragmentRegister"
             app:destination="@id/fragmentRegister" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentHome2"
+            app:destination="@id/fragmentHome" />
     </fragment>
     <fragment
         android:id="@+id/fragmentHome"
@@ -70,5 +73,9 @@
         android:id="@+id/fragmentProfile"
         android:name="binar.academy.chaptertigatopiclima.FragmentProfile"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_fragmentProfile_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+    </fragment>
 </navigation>

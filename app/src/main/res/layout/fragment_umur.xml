@@ -16,8 +16,8 @@
             android:id="@+id/greeting2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
             android:layout_toStartOf="@+id/yourName3"
             android:padding="10dp"
             android:text="@string/greeting"
@@ -49,7 +49,7 @@
             android:padding="10dp"
             android:textSize="24sp" />
 
-        <!--Your Name-->
+        <!--Your Age-->
         <TextView
             android:id="@+id/hasilUmur"
             android:layout_width="wrap_content"

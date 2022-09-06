@@ -14,7 +14,7 @@
 
         <!--Chat Option-->
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/opProfile"
+            android:id="@+id/header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -34,7 +34,7 @@
             android:id="@+id/yourName2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/opProfile"
+            android:layout_below="@id/header"
             android:layout_centerHorizontal="true"
             android:hint="@string/field_user"
             android:padding="10dp"
@@ -64,8 +64,6 @@
                 app:elevation="5dp" />
 
         </RelativeLayout>
-
-
 
     </RelativeLayout>
 

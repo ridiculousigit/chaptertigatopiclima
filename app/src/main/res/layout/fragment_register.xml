@@ -16,8 +16,8 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="50dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="50dp">
 
             <!--Header-->
             <androidx.appcompat.widget.AppCompatTextView
@@ -131,7 +131,7 @@
 
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!--Login Button-->
+                <!--Register Button-->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnRegister"
                     style="@style/Widget.MaterialComponents.Button"
