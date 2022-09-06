@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">chaptertigatopiclima</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Header-->
+    <string name="title_profile">PROFILE</string>
+    <string name="judul_home">HOME</string>
+    <!--Field-->
+    <string name="field_user">Username</string>
+    <string name="field_pass">Password</string>
+    <string name="field_name">Name</string>
+    <string name="field_tahun">Input Tahun Lahir</string>
+    <!--Button-->
+    <string name="btn_one">LOGIN</string>
+    <string name="btn_two">KELUAR</string>
+    <string name="btn_three">REGISTER</string>
+    <string name="btn_four">HITUNG</string>
+    <!--Options-->
+    <string name="option_regis">Register</string>
+    <string name="option_forgot">Lupa Password?</string>
+    <!--Description-->
+    <string name="desc_one">Chats</string>
+    <string name="desc_two">Help</string>
+    <!--Additional Information-->
+    <string name="greeting">Hello,</string>
+    <string name="info_iumur">Umur Kamu</string>
+</resources>

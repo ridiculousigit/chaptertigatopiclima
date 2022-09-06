@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentLogin">
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="binar.academy.chaptertigatopiclima.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentChats"
+            app:destination="@id/fragmentChats" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentLupa"
+            app:destination="@id/fragmentLupa" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentHelp"
+            app:destination="@id/fragmentHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="binar.academy.chaptertigatopiclima.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentProfile"
+            app:destination="@id/fragmentProfile" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentUmur"
+            app:destination="@id/fragmentUmur" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="binar.academy.chaptertigatopiclima.FragmentRegister"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHelp"
+        android:name="binar.academy.chaptertigatopiclima.FragmentHelp"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/fragmentChats"
+        android:name="binar.academy.chaptertigatopiclima.FragmentChats"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/fragmentLupa"
+        android:name="binar.academy.chaptertigatopiclima.FragmentLupa"
+        android:label="fragment_lupa"
+        tools:layout="@layout/fragment_lupa" />
+    <fragment
+        android:id="@+id/fragmentUmur"
+        android:name="binar.academy.chaptertigatopiclima.FragmentUmur"
+        android:label="fragment_umur"
+        tools:layout="@layout/fragment_umur" />
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="binar.academy.chaptertigatopiclima.FragmentProfile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

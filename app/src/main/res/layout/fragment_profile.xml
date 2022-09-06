@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentProfile">
+
+    <!-- Fragment Home -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <!--Chat Option-->
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/opProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/title_profile"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <!--Your Name-->
+        <TextView
+            android:id="@+id/yourName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opProfile"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/field_user"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_below="@id/yourName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--Hitung Button-->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKeluar"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/op_one"
+                android:text="@string/btn_two"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp"
+                app:elevation="5dp" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
