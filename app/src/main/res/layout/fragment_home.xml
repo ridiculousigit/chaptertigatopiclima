@@ -9,10 +9,12 @@
     <!-- Fragment Home -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <!--Home Option-->
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/opHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"

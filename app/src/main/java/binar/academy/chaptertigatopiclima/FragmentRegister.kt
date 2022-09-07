@@ -21,8 +21,18 @@ class FragmentRegister : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        // Register Button for User Registration
         btnRegister.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_fragmentRegister_to_fragmentLogin)
+            val username = inUsername2.text.toString()
+            val nama = inName.text.toString()
+            val password = inPassword2.text.toString()
+            val register = Bundle()
+            register.putString("regisname", username)
+            register.putString("regisnama", nama)
+            register.putString("regispass", password)
+
+            // When the button is clicked it will navigate to LoginFragment
+            Navigation.findNavController(view).navigate(R.id.action_fragmentRegister_to_fragmentLogin, register)
         }
     }
 }

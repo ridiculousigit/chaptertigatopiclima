@@ -91,7 +91,7 @@
                         android:layout_gravity="center"
                         android:hint="@string/field_name"
                         android:imeOptions="actionDone"
-                        android:inputType="textPassword"
+                        android:inputType="textPersonName"
                         android:maxLines="1"
                         android:singleLine="true"
                         android:textColor="@color/black"

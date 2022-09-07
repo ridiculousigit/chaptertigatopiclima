@@ -39,6 +39,12 @@
         <action
             android:id="@+id/action_fragmentHome_to_fragmentUmur"
             app:destination="@id/fragmentUmur" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
     </fragment>
     <fragment
         android:id="@+id/fragmentRegister"
@@ -77,5 +83,8 @@
         <action
             android:id="@+id/action_fragmentProfile_to_fragmentHome"
             app:destination="@id/fragmentHome" />
+        <action
+            android:id="@+id/action_fragmentProfile_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
     </fragment>
 </navigation>
