@@ -22,6 +22,10 @@ class FragmentHome : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         // Re-call data username from LoginFragment
         super.onViewCreated(view, savedInstanceState)
+        // Recall data nama from LoginFragment
+        val getProfile = arguments?.getString("loginnama")
+
+        // Recall data username from LoginFragment
         val getUsername = arguments?.getString("loginname")
         yourName.text = getUsername
         val gotUsername = yourName.text.toString()
@@ -35,10 +39,10 @@ class FragmentHome : Fragment() {
 
         // Profile Option to navigate to ProfileFragment
         opProfile.setOnClickListener {
-            /*val yourProfile = Bundle()
-            yourProfile.putString("userpro", gotUsername)*/
+            val yourProfile = Bundle()
+            yourProfile.putString("userpro", getProfile)
 
-            Navigation.findNavController(view).navigate(R.id.action_fragmentHome_to_fragmentProfile)
+            Navigation.findNavController(view).navigate(R.id.action_fragmentHome_to_fragmentProfile, yourProfile)
         }
 
         // Hitung Button to calculate User Age

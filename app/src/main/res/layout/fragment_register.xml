@@ -12,14 +12,14 @@
         android:layout_height="match_parent"
         tools:ignore="UselessParent">
 
-        <!--Header & Logo-->
+        <!--Header-->
         <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/headerRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="50dp">
+            android:padding="20dp">
 
-            <!--Header-->
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,6 +35,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/headerRegister"
             android:layout_centerInParent="true">
 
             <androidx.appcompat.widget.LinearLayoutCompat

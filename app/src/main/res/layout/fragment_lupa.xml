@@ -9,6 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Ini Fragment Lupa, teganya kamu melupakan aku uhuhu :(" />
+        android:text="Ini Fragment Lupa, teganya kamu melupakan aku uhuhu :("
+        android:textSize="40sp" />
 
 </FrameLayout>

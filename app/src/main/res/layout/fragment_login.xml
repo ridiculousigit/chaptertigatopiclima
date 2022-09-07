@@ -15,9 +15,11 @@
 
         <!--Header & Logo-->
         <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/headerLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="20dp">
 
             <!--Logo-->
             <androidx.appcompat.widget.AppCompatImageView
@@ -42,6 +44,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/headerLogin"
             android:layout_centerInParent="true">
 
             <androidx.appcompat.widget.LinearLayoutCompat
